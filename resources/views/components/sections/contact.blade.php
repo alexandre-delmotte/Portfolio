@@ -27,14 +27,13 @@
                     </x-utils.contact-item>
                 </ul>
             </div>
-
-            <form action="#" method="POST" class="bg-site-card p-8 rounded-2xl border border-white/5 shadow-xl space-y-6">
+            <form action="{{ route('contact.send') }}" method="POST" class="bg-site-card p-8 rounded-2xl border border-white/5 shadow-xl space-y-6">
                 @csrf
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
                         <label for="name" class="block text-sm font-medium text-gray-400 mb-2">Votre nom / Entreprise</label>
-                        <input type="text" id="name" name="name" placeholder="Ex: Jean Dupont - Tech Corp" class="w-full bg-site-bg border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-site-blue focus:ring-1 focus:ring-site-blue transition-colors">
+                        <input type="text" id="name" name="name" placeholder="Jean Dupont" class="w-full bg-site-bg border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-site-blue focus:ring-1 focus:ring-site-blue transition-colors">
                     </div>
                     <div>
                         <label for="email" class="block text-sm font-medium text-gray-400 mb-2">Votre email</label>

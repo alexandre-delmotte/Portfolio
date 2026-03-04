@@ -7,15 +7,15 @@
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="bg-site-bg text-gray-200 antialiased font-sans min-h-screen flex flex-col">
+    <body class="bg-site-bg text-gray-200 antialiased font-sans min-h-screen flex flex-col">
 
-<x-layouts.navbar />
+        <x-layouts.navbar />
 
-<main class="flex-grow">
-    {{ $slot }}
-</main>
+        <main class="flex-grow">
+            {{ $slot }}
+        </main>
 
-<x-layouts.footer />
-
-</body>
+        <x-layouts.footer />
+        <x-utils.toast />
+    </body>
 </html>

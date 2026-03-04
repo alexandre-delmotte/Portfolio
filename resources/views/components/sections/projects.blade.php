@@ -6,15 +6,15 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
 
             <x-utils.project-card
-                title="Poo Vanilla - Framework Custom"
-                source="{{ asset('img/filament.png') }}"
+                title="Poo Vanilla"
+                source="{{ asset('img/kitchen-management.png') }}"
                 description="Création d'un mini-framework MVC en PHP pur pour comprendre les concepts de l'Orienté Objet sous Laravel."
                 link="https://github.com/votre-user/poo-vanilla"
             />
 
             <x-utils.project-card
                 title="Kitchen Management - MVP Laravel"
-                source="{{ asset('img/filament.png') }}"
+                source="{{ asset('img/kitchen-pro.png') }}"
                 description="Application Laravel complète pour la gestion intelligente de listes de courses et la planification de repas."
                 link="https://github.com/votre-user/kitchen-management"
             />
@@ -22,7 +22,7 @@
             <x-utils.project-card
                 title="Tom's Kitchen"
                 source="{{ asset('img/filament.png') }}"
-                description="Site vitrine élégant pour un traiteur namurois, réalisé dans le cadre de mon TFE."
+                description="ERP/CRM pour un traiteur , réalisé dans le cadre de mon TFE."
                 link="#"
             />
 
@@ -30,7 +30,7 @@
                 title="Roule ma poule"
                 source="{{ asset('img/rmp.png') }}"
                 blur="blur-sm"
-                description="Projet mystère en cours de développement. Coming soon..."
+                description="Coming soon..."
                 link="#"
             />
 

@@ -19,18 +19,21 @@
                         Plus qu'un simple profil Junior sorti d'école.
                     </p>
                     <p>
-                        Mon parcours en dehors des bancs de l'école est ma plus grande force. Le sport de haut niveau m'a inculqué <span class="text-site-blue-light">l'esprit d'équipe, la résilience et le dépassement de soi</span>. En parallèle, j'ai forgé mon éthique de travail à travers des emplois exigeants et physiques, où j'ai appris à prendre des responsabilités.
+                        Mon parcours en dehors des bancs de l'école est ma plus grande force. Le sport de haut niveau m'a inculqué <span class="text-site-blue-light">l'esprit d'équipe, la résilience et le dépassement de soi</span>. En parallèle, j'ai confronté mon éthique de travail à la réalité du terrain à travers des emplois physiques, répétitifs et parfois ingrats.
                     </p>
                     <p>
-                        Discipliné, fiable et motivé, je n'attends qu'une entreprise qui saura me donner ma chance pour relever de nouveaux défis techniques.
+                        Ces expériences m'ont forgé un mental solide : je connais la valeur de l'effort et je ne baisse pas les bras à la première difficulté. Si j'ai su m'investir avec rigueur dans des métiers par pure nécessité, imaginez l'énergie et la détermination que je suis prêt à déployer chaque jour pour un métier qui me passionne.
+                    </p>
+                    <p>
+                        Fiable et motivé, je n'attends qu'une entreprise qui saura me donner ma chance pour prouver ma valeur.
                     </p>
                     <div class="pt-6 flex flex-col sm:flex-row gap-4">
-                        <a href="{{ asset('cv-alexandre-delmotte-design.pdf') }}" download="CV_Alexandre_Delmotte_Design.pdf" class="inline-flex items-center justify-center gap-2 px-6 py-3 bg-site-blue hover:bg-site-blue-light text-white font-bold rounded-lg shadow-lg shadow-site-blue/30 transition-all duration-300 transform hover:-translate-y-1">
+                        <a href="{{ asset('cv-alexandre-delmotte-dark.pdf') }}" download="CV_Alexandre_Delmotte_Design.pdf" class="inline-flex items-center justify-center gap-2 px-6 py-3 bg-site-blue hover:bg-site-blue-light text-white font-bold rounded-lg shadow-lg shadow-site-blue/30 transition-all duration-300 transform hover:-translate-y-1">
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
                             CV Numérique (Dark)
                         </a>
 
-                        <a href="{{ asset('cv-alexandre-delmotte-print.pdf') }}" download="CV_Alexandre_Delmotte_Print.pdf" class="inline-flex items-center justify-center gap-2 px-6 py-3 bg-transparent border border-gray-600 hover:border-gray-400 text-gray-300 hover:text-white font-bold rounded-lg transition-all duration-300">
+                        <a href="{{ asset('cv-alexandre-delmotte-light.pdf') }}" download="CV_Alexandre_Delmotte_Print.pdf" class="inline-flex items-center justify-center gap-2 px-6 py-3 bg-transparent border border-gray-600 hover:border-gray-400 text-gray-300 hover:text-white font-bold rounded-lg transition-all duration-300">
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"></path></svg>
                             CV Version Imprimable
                         </a>

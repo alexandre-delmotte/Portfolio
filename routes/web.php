@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -11,3 +12,4 @@ Route::get('/cv-dark', function () {
 Route::get('/cv-light', function () {
     return view('pages.cv-light');
 });
+Route::post('/contact', [ContactController::class, 'send'])->name('contact.send');

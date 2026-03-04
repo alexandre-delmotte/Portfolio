@@ -16,8 +16,8 @@
                 <ul class="space-y-3 text-gray-400">
                     <li class="flex items-center"><span class="text-site-blue mr-3">▹</span> PHP 8</li>
                     <li class="flex items-center"><span class="text-site-blue mr-3">▹</span> Laravel & Sail</li>
-                    <li class="flex items-center"><span class="text-site-blue mr-3">▹</span> MySQL / PostgreSQL</li>
-                    <li class="flex items-center"><span class="text-site-blue mr-3">▹</span> Architecture MVC</li>
+                    <li class="flex items-center"><span class="text-site-blue mr-3">▹</span> MySQL</li>
+                    <li class="flex items-center"><span class="text-site-blue mr-3">▹</span> Architecture MVC & POO</li>
                 </ul>
             </div>
 

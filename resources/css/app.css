@@ -16,3 +16,6 @@
         --color-site-blue: #2563eb;
         --color-site-blue-light: #3b82f6;
 }
+html {
+    scroll-behavior: smooth;
+}
