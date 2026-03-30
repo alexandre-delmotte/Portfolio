@@ -16,19 +16,19 @@
     </h1>
 
     <h2 class="text-xl md:text-2xl text-gray-300 font-medium mb-6">
-        Développeur Web Backend <span class="text-site-blue-light font-bold">|</span> Laravel & PHP
+        {{__('Développeur Web Backend')}} <span class="text-site-blue-light font-bold">|</span> Laravel & PHP
     </h2>
 
     <p class="max-w-2xl text-gray-400 text-lg mb-10 leading-relaxed">
-        Déterminé et doté d'une grande capacité d'adaptation, je suis prêt à mettre ma rigueur et ma passion au service de votre entreprise.
+        {{ __("Déterminé et doté d'une grande capacité d'adaptation, je suis prêt à mettre ma rigueur et ma passion au service de votre entreprise.") }}
     </p>
 
     <div class="flex flex-col sm:flex-row gap-4">
         <a href="#projects" class="px-8 py-3 bg-site-blue hover:bg-site-blue-light text-white font-semibold rounded-lg shadow-lg shadow-site-blue/30 transition-all duration-300 transform hover:-translate-y-1">
-            Voir mes projets
+            {{ __("Voir mes projets") }}
         </a>
         <a href="#contact" class="px-8 py-3 bg-transparent border border-gray-600 hover:border-site-blue-light text-gray-300 hover:text-white font-semibold rounded-lg transition-all duration-300">
-            Me contacter
+            {{ __("Me contacter") }}
         </a>
     </div>
 </section>

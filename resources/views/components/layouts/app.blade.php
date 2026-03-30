@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Alexandre Delmotte | Développeur Web</title>
+    <title> {{ __('Alexandre Delmotte | Développeur Web') }}</title>
     <meta name="description" content="Portfolio d'Alexandre Delmotte, Développeur Web Junior spécialisé en PHP et Laravel. Découvrez mes projets, mon parcours et contactez-moi pour une collaboration.">
 
     <meta property="og:title" content="Alexandre Delmotte | Développeur Web">

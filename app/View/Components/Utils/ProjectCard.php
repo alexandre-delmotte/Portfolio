@@ -17,7 +17,8 @@ class ProjectCard extends Component
         public string $description = '',
         public string $link = '#',
         public string $github = '#',
-        public string $blur = ''
+        public string $blur = '',
+        public string $objectPosition = 'object-center',
     ){}
 
     /**

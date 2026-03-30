@@ -19,8 +19,8 @@ class ContactController extends Controller
         ]);
 
 
-        Mail::to('alexandre.delmotte.dev@gmail.com')->send(new ContactMessage($validated));
+        Mail::to(env('mail_from_address'))->send(new ContactMessage($validated));
 
-        return redirect('/#contact')->with('success', 'Votre message a été envoyé avec succès ! Je vous réponds très vite.');
+        return redirect('/#contact')->with('success', __('Votre message a été envoyé avec succès ! Je vous réponds très vite.'));
     }
 }

@@ -4,7 +4,7 @@
         <img
             src="{{ $source }}"
             alt="{{ $title }}"
-            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 {{ $blur ?? '' }}"
+            class="w-full h-full object-cover {{ $objectPosition }} transition-transform duration-500 group-hover:scale-110 {{ $blur ?? '' }}"
         >
         <div class="absolute inset-0 bg-gradient-to-t from-site-card/90 to-transparent"></div>
     </div>
@@ -17,8 +17,6 @@
         <p class="text-gray-400 text-sm mb-6 flex-grow leading-relaxed">
             @if($description)
                 {{ $description }}
-            @else
-                Description en cours de rédaction pour ce projet passionnant.
             @endif
         </p>
 
@@ -27,11 +25,11 @@
             @if(isset($link) && $link != '#')
                 <a href="{{ $link }}" target="_blank" rel="noopener noreferrer" class="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-site-bg border border-gray-700 hover:border-site-blue-light text-gray-300 hover:text-white text-sm font-semibold rounded-lg transition-all duration-300">
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-                    Voir le projet
+                    {{__('Voir le projet')}}
                 </a>
             @else
                 <div class="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-site-bg border border-gray-700 hover:border-site-blue-light text-gray-300 hover:text-white text-sm font-semibold rounded-lg transition-all duration-300">
-                    Bientôt disponible
+                    {{ __('Bientôt disponible') }}
                 </div>
             @endif
 

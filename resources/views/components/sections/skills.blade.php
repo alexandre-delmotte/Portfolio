@@ -2,7 +2,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <div class="text-center mb-16">
-            <h2 class="text-3xl md:text-4xl font-extrabold text-white mb-4">Mes Compétences</h2>
+            <h2 class="text-3xl md:text-4xl font-extrabold text-white mb-4">{{ __('Mes Compétences') }}</h2>
             <div class="w-20 h-1 bg-site-blue mx-auto rounded"></div>
         </div>
 
@@ -17,7 +17,7 @@
                     <li class="flex items-center"><span class="text-site-blue mr-3">▹</span> PHP 8</li>
                     <li class="flex items-center"><span class="text-site-blue mr-3">▹</span> Laravel & Sail</li>
                     <li class="flex items-center"><span class="text-site-blue mr-3">▹</span> MySQL</li>
-                    <li class="flex items-center"><span class="text-site-blue mr-3">▹</span> Architecture MVC & POO</li>
+                    <li class="flex items-center"><span class="text-site-blue mr-3">▹</span> {{ __('Architecture MVC & POO') }}</li>
                 </ul>
             </div>
 
@@ -42,7 +42,7 @@
                 <ul class="space-y-3 text-gray-400">
                     <li class="flex items-center"><span class="text-site-blue mr-3">▹</span> Git & GitHub</li>
                     <li class="flex items-center"><span class="text-site-blue mr-3">▹</span> Docker</li>
-                    <li class="flex items-center"><span class="text-site-blue mr-3">▹</span> Déploiement VPS</li>
+                    <li class="flex items-center"><span class="text-site-blue mr-3">▹</span> {{ __('Déploiement VPS') }}</li>
                     <li class="flex items-center"><span class="text-site-blue mr-3">▹</span> Figma</li>
                 </ul>
             </div>
